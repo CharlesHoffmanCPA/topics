@@ -1,0 +1,122 @@
+Id,Source,ObjectType,ObjectName,ObjectLabel,TopicNumber,ObjectParent,DefinedBy,TaxonomyNetwork
+1,ASC,[Root],FinancialReport,Financial Report,205,Topic,https://asc.fasb.org/,None
+2,ASC,[Heading],PrimaryFinancialStatements,Primary Financial Statements,205,FinancialReport,https://asc.fasb.org/,None
+3,ASC,[TOPIC],BalanceSheet,Balance Sheet,210,PrimaryFinancialStatements,https://asc.fasb.org/topic&trid=2122208,http://fasb.org/us-gaap/role/statement/StatementOfFinancialPositionClassified
+4,ASC,[TOPIC],IncomeStatement,Income Statement,225,PrimaryFinancialStatements,https://asc.fasb.org/topic&trid=2122288,http://fasb.org/us-gaap/role/statement/StatementOfIncome
+5,ASC,[TOPIC],CashFlowStatement,Cash Flow Statement,230,PrimaryFinancialStatements,https://asc.fasb.org/topic&trid=2134446,http://fasb.org/us-gaap/role/statement/StatementOfCashFlowsIndirect
+6,ASC,[TOPIC],StatementShareholderEquity,Statement of Changes in Equity,215,PrimaryFinancialStatements,https://asc.fasb.org/topic&trid=2122265,http://fasb.org/us-gaap/role/statement/StatementOfShareholdersEquityAndOtherComprehensiveIncome
+7,ASC,[TOPIC],ComprehensiveIncome,Comprehensive Income,220,PrimaryFinancialStatements,https://asc.fasb.org/topic&trid=2134417,http://fasb.org/us-gaap/role/statement/StatementOfOtherComprehensiveIncome
+8,ASC,[Heading],OrganizationConsolidationPresentationFinancialStatements,"Organization, Consolidation, and Presentation of Financial Statements",235,FinancialReport,https://asc.fasb.org/extlink&oid=6927468&loc=d3e6003-108592,http://fasb.org/us-gaap/role/disclosure/OrganizationConsolidationAndPresentationOfFinancialStatements
+9,ASC,[TOPIC],Organization,Organization,235,OrganizationConsolidationPresentationFinancialStatements,https://asc.fasb.org/extlink&oid=6927468&loc=d3e6003-108592,None
+10,ASC,[TOPIC],ConsolidationInformation,Consolidation Information,810,OrganizationConsolidationPresentationFinancialStatements,https://asc.fasb.org/extlink&oid=6927468&loc=d3e6003-108592,None
+11,ASC,[TOPIC],PresentationFinancialStatements,Presentation of Financial Statements,235,BasisOfFinancialStatementPresentation,https://asc.fasb.org/extlink&oid=6927468&loc=d3e6003-108592,None
+12,ASC,[Heading],SignificantAccountingPolicies,Significant Accounting Policies,235,FinancialReport,https://asc.fasb.org/section&nav_type=topic_page&analyticsAssetName=topic_page_para_group&trid=2122385#d3e18722-107790,None
+13,ASC,[TOPIC],AccountingPolicies,Accounting Policies,234,SignificantAccountingPolicies,https://asc.fasb.org/section&nav_type=topic_page&analyticsAssetName=topic_page_para_group&trid=2122385#d3e18722-107790,http://fasb.org/us-gaap/role/disclosure/AccountingPolicies
+14,ASC,[TOPIC],NewAccountingPronouncements,New Accounting Pronouncements,250,SignificantAccountingPolicies,https://asc.fasb.org/,None
+15,ASC,[TOPIC],OtherAccountingPoliciesRelated,Other Accounting Policies Related,250,SignificantAccountingPolicies,https://asc.fasb.org/,None
+16,ASC,[Heading],FinancialStatementAccounts,Financial Statement Accounts,XXX,FinancialReport,https://asc.fasb.org/,None
+17,ASC,[TOPIC],CashAndCashEquivalents,Cash and Cash Equivalents,305,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2122426,http://fasb.org/us-gaap/role/disclosure/CashAndCashEquivalents
+18,ASC,[TOPIC],Receivables,Receivables,310,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2196771,http://fasb.org/us-gaap/role/disclosure/ReceivablesLoansNotesReceivableAndOthers
+19,ASC,[TOPIC],DebtAndEquitySecurities,Investments-Debt and Equity Securities,320,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2196928,http://fasb.org/us-gaap/role/disclosure/InvestmentsDebtAndEquitySecurities
+20,ASC,[TOPIC],EquityMethodJointVentures,Investments-Equity Method Joint Ventures,323,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2196965,http://fasb.org/us-gaap/role/disclosure/InvestmentsEquityMethodAndJointVentures
+21,ASC,[TOPIC],InvestmentsOther,Investments-Other,325,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2197064,http://fasb.org/us-gaap/role/disclosure/InvestmentsAllOtherInvestments
+22,ASC,[TOPIC],Inventory,Inventory,330,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2126998,http://fasb.org/us-gaap/role/disclosure/Inventory
+23,ASC,[TOPIC],DeferredCosts,Other Assets and Deferred Costs,340,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2127033,http://fasb.org/us-gaap/role/disclosure/DeferredCostsCapitalizedPrepaidAndOtherAssets
+24,ASC,[TOPIC],PropertyPlantAndEquipment,"Property, Plant, and Equipment",360,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2155823,http://fasb.org/us-gaap/role/disclosure/PropertyPlantAndEquipment
+25,ASC,[TOPIC],IntangibleAssetsGoodwillAndOther,Intangibles-Goodwill and Other,350,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2144416,http://fasb.org/us-gaap/role/disclosure/IntangibleAssetsGoodwillAndOther
+26,ASC,[TOPIC],PayablesAccruals,Payables Accruals (Liabilities),405,FinancialStatementAccounts,https://asc.fasb.org/extlink&oid=6877327&loc=d3e13212-122682,http://fasb.org/us-gaap/role/disclosure/PayablesAndAccruals
+27,ASC,[TOPIC],AssetRetirementObligations,Asset Retirement Obligations and Environmental Obligations,410,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2175650,http://fasb.org/us-gaap/role/disclosure/AssetRetirementObligations
+28,ASC,[TOPIC],ExitOrDisposalCostObligations,Exit or Disposal Cost Obligations,420.1,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2175745,http://fasb.org/us-gaap/role/disclosure/ExitOrDisposalCostObligations
+29,ASC,[TOPIC],DeferredRevenue,Deferred Revenue,430,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2122452,http://fasb.org/us-gaap/role/disclosure/DeferredRevenue
+30,ASC,[TOPIC],Commitments,Commitments,440,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2144648,http://fasb.org/us-gaap/role/disclosure/CommitmentAndContingencies
+31,ASC,[TOPIC],Contingencies,Contingencies,450,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2127136,http://fasb.org/us-gaap/role/disclosure/CommitmentAndContingencies
+32,ASC,[TOPIC],Guarantees,Guarantees,460,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2155896,http://fasb.org/us-gaap/role/disclosure/Guarantees
+33,ASC,[TOPIC],Debt,Debt,470,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2208564,http://fasb.org/us-gaap/role/disclosure/Debt
+34,ASC,[TOPIC],DistinguishingLiabilitiesFromEquity,Temporary Equity (Distinguishing Liabilities from Equity),480,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2175786,http://fasb.org/us-gaap/role/disclosure/OtherLiabilities
+35,ASC,[TOPIC],Equity,Equity,505,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2208762,http://fasb.org/us-gaap/role/disclosure/Equity
+36,ASC,[TOPIC],RevenueRecognition,Revenue Recognition,605,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2197195,None
+37,ASC,[TOPIC],CostOfSalesServices,Cost of Sales and Services,705,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2122478,None
+38,ASC,[TOPIC],CompensationRelatedCostsGeneral,Compensation-General,710,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2127225,http://fasb.org/us-gaap/role/disclosure/CompensationRelatedCostsGeneral
+39,ASC,[TOPIC],PostEmploymentButPreRetirementCosts,Compensation-Nonretirement Postemployment Benefits,712,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2197446,http://fasb.org/us-gaap/role/disclosure/CompensationRelatedCostsRetirementBenefits
+40,ASC,[TOPIC],PostretirementPensionCosts,Compensation-Retirement Benefits,715,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2235017,http://fasb.org/us-gaap/role/disclosure/CompensationRelatedCostsPostemploymentBenefits
+41,ASC,[TOPIC],StockCompensation,Compensation-Stock Compensation,718,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2228938,http://fasb.org/us-gaap/role/disclosure/CompensationRelatedCostsStockCompensation
+42,ASC,[TOPIC],OtherExpenses,Other Expenses,720,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2122503,http://fasb.org/us-gaap/role/disclosure/OtherExpenses
+43,ASC,[TOPIC],ResearchAndDevelopmentCosts,Research and Development,730,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2127265,http://fasb.org/us-gaap/role/disclosure/ResearchAndDevelopment
+44,ASC,[TOPIC],IncomeTaxes,Income Taxes,740,FinancialStatementAccounts,https://asc.fasb.org/topic&trid=2144680,http://fasb.org/us-gaap/role/disclosure/IncomeTaxes
+45,ASC,[Heading],BasisOfFinancialStatementPresentation,Basis of Financial Statement Presentation,235,FinancialReport,https://asc.fasb.org/topic&trid=2122149,None
+46,ASC,[TOPIC],AccountingChanges,Accounting Changes,250,BasisOfReporting,https://asc.fasb.org/glossary&letter=A,http://fasb.org/us-gaap/role/disclosure/AccountingChangesAndErrorCorrections
+47,ASC,[TOPIC],PriorPeriodAdjustments,Error Corrections (Prior Period Adjustments),250,BasisOfReporting,https://asc.fasb.org/topic&trid=2122394,None
+48,ASC,[TOPIC],ChangingPricesHyperinflation,Changing Prices (Hyperinflation),253,BasisOfReporting,https://asc.fasb.org/topic&trid=2175615,None
+49,ASC,[TOPIC],EarningsPerShare,Earnings Per Share,260,BasisOfReporting,https://asc.fasb.org/topic&trid=2144383,http://fasb.org/us-gaap/role/disclosure/EarningsPerShare
+50,ASC,[TOPIC],InterimReporting,Interim Reporting,270,BasisOfReporting,https://asc.fasb.org/topic&trid=2126967,http://fasb.org/us-gaap/role/disclosure/InterimReporting
+51,ASC,[TOPIC],RisksUncertainties,Risks Uncertainties,275,BasisOfReporting,https://asc.fasb.org/topic&trid=2134479,http://fasb.org/us-gaap/role/disclosure/RisksAndUncertainties
+52,ASC,[TOPIC],SegmentReporting,Segment Reporting,280,BasisOfReporting,https://asc.fasb.org/topic&trid=2134510,http://fasb.org/us-gaap/role/disclosure/SegmentReporting
+53,ASC,[TOPIC],UseOfEstimates,Use of Estimates,235,BasisOfReporting,https://asc.fasb.org/extlink&oid=6927468&loc=d3e6003-108592,None
+54,ASC,[TOPIC],SpecializedActivities,Specialized Activities,900,BasisOfReporting,https://asc.fasb.org/,None
+55,ASC,[TOPIC],DiscontinuedOperations,Discontinued Operations,420,BasisOfReporting,https://asc.fasb.org/,http://fasb.org/us-gaap/role/disclosure/DiscontinuedOperations
+56,ASC,[Heading],BroadTransactionalCategories,Broad Transactional Categories,800,FinancialReport,https://asc.fasb.org/area&trid=2122744,None
+57,ASC,[TOPIC],BusinessCombinations,Business Combinations,805,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2303972,http://fasb.org/us-gaap/role/disclosure/BusinessCombinations
+58,ASC,[TOPIC],CollaborativeArrangements,Collaborative Arrangements,808,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=5833765,http://fasb.org/us-gaap/role/disclosure/OrganizationConsolidationAndPresentationOfFinancialStatements
+59,ASC,[TOPIC],Consolidation,Consolidation,810,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2197479,None
+60,ASC,[TOPIC],DerivativeInstrumentsAndHedgingActivities,Derivatives and Hedging,815,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2229140,http://fasb.org/us-gaap/role/disclosure/DerivativeInstrumentsAndHedgingActivities
+61,ASC,[TOPIC],FairValueMeasurement,Fair Value Measurement,820,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2155941,http://fasb.org/us-gaap/role/disclosure/FinancialInstrumentsFairValueDisclosures
+62,ASC,[TOPIC],FinancialInstruments,Financial Instruments,285,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2134543,None
+63,ASC,[TOPIC],ForeignOperationsAndCurrencyTranslation,Foreign Currency Matters,830,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2175825,http://fasb.org/us-gaap/role/disclosure/ForeignOperationsAndCurrencyTranslation
+64,ASC,[TOPIC],Interest,Interest,835,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2127328,None
+65,ASC,[TOPIC],LeasesOperating,Leases-Operating,840.1,BroadTransactionalCategories,https://asc.fasb.org/subtopic&trid=2208979,http://fasb.org/us-gaap/role/disclosure/Leases
+66,ASC,[TOPIC],LeasesCapital,Leases-Capital,840,BroadTransactionalCategories,https://asc.fasb.org/subtopic&trid=2209026,http://fasb.org/us-gaap/role/disclosure/Leases
+67,ASC,[TOPIC],LeasesSaleAndLeaseback,Leases-Sale and Leaseback,840.2,BroadTransactionalCategories,https://asc.fasb.org/subtopic&trid=2209073,http://fasb.org/us-gaap/role/disclosure/Leases
+68,ASC,[TOPIC],NonmonetaryTransactions,Nonmonetary Transactions,845,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2127423,http://fasb.org/us-gaap/role/disclosure/NonmonetaryTransactions
+69,ASC,[TOPIC],RelatedPartyDisclosures,Related Party Disclosures,850,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2122745,http://fasb.org/us-gaap/role/disclosure/RelatedPartyDisclosures
+70,ASC,[TOPIC],Reorganizations,Reorganizations,852,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2209115,http://fasb.org/us-gaap/role/disclosure/Reorganizations
+71,ASC,[TOPIC],SubsequentEvents,Subsequent Events,855,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2122774,http://fasb.org/us-gaap/role/disclosure/SubsequentEvents
+72,ASC,[TOPIC],UnusualOrInfrequentItems,Unusual or Infrequent Items,800,BroadTransactionalCategories,https://asc.fasb.org/subtopic&trid=2122313,http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItems
+73,ASC,[TOPIC],ExtraordinaryItems,Extraordinary Items,800,BroadTransactionalCategories,https://asc.fasb.org/subtopic&trid=2122313,http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItems
+74,ASC,[TOPIC],TransfersAndServicing,Transfers and Servicing,860,BroadTransactionalCategories,https://asc.fasb.org/topic&trid=2197590,None
+75,ASC,[Heading],IndustrySpecific,Industry Specific,900,FinancialReport,https://asc.fasb.org/area&trid=2122797,None
+76,ASC,[TOPIC],Agriculture,Agriculture,905,IndustrySpecific,https://asc.fasb.org/topic&trid=2148093,None
+77,ASC,[TOPIC],Airlines,Airlines,908,IndustrySpecific,https://asc.fasb.org/topic&trid=2122798,None
+78,ASC,[TOPIC],ContractorsConstruction,Contractors-Construction,910,IndustrySpecific,https://asc.fasb.org/topic&trid=2144811,http://fasb.org/us-gaap/role/disclosure/Contractors
+79,ASC,[TOPIC],DevelopmentStageEntities,Development Stage Entities,915,IndustrySpecific,https://asc.fasb.org/topic&trid=2175980,http://fasb.org/us-gaap/role/disclosure/DevelopingStageEnterprises
+80,ASC,[TOPIC],Broadcasting,Entertainment-Broadcasters,920,IndustrySpecific,https://asc.fasb.org/topic&trid=2123033,None
+81,ASC,[TOPIC],CableTelevision,Entertainment-Cable Television,922,IndustrySpecific,https://asc.fasb.org/topic&trid=2127477,None
+82,ASC,[TOPIC],Casinos,Entertainment-Casinos,924,IndustrySpecific,https://asc.fasb.org/topic&trid=2123214,None
+83,ASC,[TOPIC],MotionPictures,Entertainment-Films,926,IndustrySpecific,https://asc.fasb.org/topic&trid=2123363,None
+84,ASC,[TOPIC],RecordsAndMusicIndustry,Entertainment-Music,928,IndustrySpecific,https://asc.fasb.org/topic&trid=2123672,None
+85,ASC,[TOPIC],FinancialServicesBrokersAndDealers,Financial Services-Brokers and Dealers,940,IndustrySpecific,https://asc.fasb.org/topic&trid=2176223,None
+86,ASC,[TOPIC],FinancialServicesDepositoryAndLending,Financial Services-Depository and Lending,942,IndustrySpecific,https://asc.fasb.org/topic&trid=2209208,None
+87,ASC,[TOPIC],FinancialServicesInsurance,Financial Services-Insurance,944,IndustrySpecific,https://asc.fasb.org/topic&trid=2303980,None
+88,ASC,[TOPIC],FinancialServicesInvestmentCompanies,Financial Services-Investment Companies,946,IndustrySpecific,https://asc.fasb.org/topic&trid=2303982,None
+89,ASC,[TOPIC],FinancialServicesMortgageBanking,Financial Services-Mortgage Banking,948,IndustrySpecific,https://asc.fasb.org/topic&trid=2176497,None
+90,ASC,[TOPIC],FinancialServicesTitlePlant,Financial Services-Title Plant,950,IndustrySpecific,https://asc.fasb.org/topic&trid=2123849,None
+91,ASC,[TOPIC],FranchisorAccounting,Franchisors,952,IndustrySpecific,https://asc.fasb.org/topic&trid=2123880,None
+92,ASC,[TOPIC],HealthCareEntities,Health Care Entities,954,IndustrySpecific,https://asc.fasb.org/topic&trid=2288991,None
+93,ASC,[TOPIC],PlanAccountingDefinedContributionPensionPlans,Plan Accounting-Defined Contribution Pension Plans,962,IndustrySpecific,https://asc.fasb.org/topic&trid=2229423,None
+94,ASC,[TOPIC],PlanAccountingHealthWelfareBenefitPlans,Plan Accounting-Health and Welfare Benefit Plans,965,IndustrySpecific,https://asc.fasb.org/topic&trid=2210437,None
+95,ASC,[TOPIC],RealEstateOperations,Real Estate-General,970,IndustrySpecific,https://asc.fasb.org/topic&trid=2210437,None
+96,ASC,[TOPIC],RealEstateCommonInterestRealtyAssociations,Real Estate-Common Interest Realty Associations,972,IndustrySpecific,https://asc.fasb.org/topic&trid=2134617,None
+97,ASC,[TOPIC],RealEstateRealEstateInvestmentTrusts,Real Estate-Real Estate Investment Trusts,974,IndustrySpecific,https://asc.fasb.org/topic&trid=2156429,None
+98,ASC,[TOPIC],RealEstateRetailLand,Real Estate-Retail Land,976,IndustrySpecific,https://asc.fasb.org/topic&trid=2134846,None
+99,ASC,[TOPIC],RealEstateTimeSharingActivities,Real Estate-Time-Sharing Activities,978,IndustrySpecific,https://asc.fasb.org/topic&trid=2134977,None
+100,ASC,[TOPIC],RegulatedOperations,Regulated Operations,980,IndustrySpecific,https://asc.fasb.org/topic&trid=2156578,None
+101,ASC,[TOPIC],Software,Software,985,IndustrySpecific,https://asc.fasb.org/topic&trid=2197773,None
+102,ASC,[TOPIC],USSteamshipEntities,U.S. Steamship Entities,995,IndustrySpecific,https://asc.fasb.org/topic&trid=2157037,None
+103,ASC,[Heading],DocumentAndEntityInformation,Document and Entity Information,XXX,FinancialReport,http://www.sec.gov/info/edgar/edgartaxonomies.shtml,None
+104,ASC,[TOPIC],DocumentInformation,Document Information,XXX,DocumentAndEntityInformation,http://www.sec.gov/info/edgar/edgartaxonomies.shtml,http://xbrl.sec.gov/dei/role/document/DocumentInformation
+105,ASC,[TOPIC],EntityInformation,Entity Information,XXX,DocumentAndEntityInformation,http://www.sec.gov/info/edgar/edgartaxonomies.shtml,http://xbrl.sec.gov/dei/role/document/EntityInformation
+106,Other,[Heading],SupplementaryInformation,Supplementary Information,XXX,FinancialReport,http://www.aicpa.org/Research/Standards/AuditAttest/DownloadableDocuments/AU-00551.pdf,None
+107,Other,[TOPIC],OtherInformation,Other Information,XXX,SupplementaryInformation,http://financialreportontology.wikispaces.com/Common+Practice,None
+108,ASC,[TOPIC],ExtractiveActivitiesOilAndGas,Extractive Activities-Oil and Gas,932,IndustrySpecific,https://asc.fasb.org/topic&trid=2145477,None
+109,ASC,[TOPIC],ContractorsFederalGovernment,Contractors-Federal Government,912,IndustrySpecific,https://asc.fasb.org/topic&trid=2145070,None
+110,ASC,[TOPIC],TemporaryEquity,Temporary Equity,480,FinancialStatementAccounts,https://asc.fasb.org/extlink&oid=27011957&loc=SL6540498-122764,None
+111,ASC,[TOPIC],DepositoryAndLending,Depository and Lending,942,IndustrySpecific,https://asc.fasb.org/topic&trid=2209208,None
+112,ASC,[TOPIC],BrokersAndDealers,Brokers and Dealers,940,IndustrySpecific,https://asc.fasb.org/topic&trid=2176223,None
+113,ASC,[TOPIC],Insurance,Insurance,944,IndustrySpecific,https://asc.fasb.org/topic&trid=2303980,None
+114,ASC,[TOPIC],InvestmentCompanies,Investment Companies,946,IndustrySpecific,https://asc.fasb.org/topic&trid=2303982,None
+115,ASC,[TOPIC],MortgageBanking,Mortgage Banking,948,IndustrySpecific,https://asc.fasb.org/topic&trid=2176497,None
+116,ASC,[TOPIC],ExtractiveActivitiesMining,Extractive Activities-Mining,930,IndustrySpecific,https://asc.fasb.org/topic&trid=2155974,None
+117,ASC,[TOPIC],NotForProfitEntities,Not-for-Profit Entities,958,IndustrySpecific,https://asc.fasb.org/topic&trid=2209682,None
+118,ASC,[TOPIC],PlanAccountingDefinedBenefitPensionPlans,Plan Accounting-Defined Benefit Pension Plans,960,IndustrySpecific,https://asc.fasb.org/topic&trid=2210240,None
+119,ASC,[TOPIC],PrinciplesOfConsolidation,Principles of Consolidation,235,OrganizationConsolidationPresentationFinancialStatements,https://asc.fasb.org/topic&trid=2122149,None
+120,ASC,[TOPIC],BasisOfReporting,Basis of Reporting,235,BasisOfFinancialStatementPresentation,https://asc.fasb.org/topic&trid=2122149,None
+121,ASC,[TOPIC],CommercialAndIndustrial,Commercial and Industrial,985,IndustrySpecific,https://asc.fasb.org/area&trid=2122797,None
