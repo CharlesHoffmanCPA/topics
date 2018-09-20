@@ -1,0 +1,1399 @@
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema" lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Model Structural Relations: </title><style>
+	         body {font-size:8pt; font-family:Verdana, Arial; color:Black; background-color:White}
+	         hr {size:1; width:100%; color:Black}
+	         div {margin:5}
+	         .Title {font:bold 14pt Arial; width:100%; margin-top:1em; color:RoyalBlue}
+	         .Header {font:bold 14pt Arial; margin-top:1em; color:RoyalBlue}
+           	 table {border-collapse:collapse; table-layout:fixed; background-color:white; }
+           	 th {font-size:7pt; font-weight:bold; color:White; background-color:Navy; border:1px solid black; vertical-align:text-bottom}
+           	 td {color:Black; border:0px solid black; vertical-align:top;}
+	         .Row {font-size:8pt; font-family:Verdana, Arial; font-weight:normal; color:Black; vertical-align:text-top}
+	         .RowNetwork {font-size:8pt; font-family:Verdana, Arial; font-weight:normal; color:Black; vertical-align:text-top}
+	         h1 {font-size:12pt; font-family:Verdana, Arial; font-weight:bold; text-align:left; color:Black; margin-top:1em}
+	         h3 {font-size:10pt; font-family:Arial; font-weight:bold; text-align:left; color:navy; margin-top:1em}
+	         a:link {font-weight:normal; Text-decoration:none;}
+	         a:visited  {font-weight:normal; Text-decoration:none;}
+	         a:hover {font-weight:normal; Text-decoration:underline; background-color:#FF9933;}
+				</style></head>
+   <body>
+      <h1><span style="color:red">Model Structural Relations: </span><span style="color:navy"></span></h1>
+      <table id="Relations" cellspacing="2" cellpadding="1" border="0" style="table-layout:fixed;word-wrap:break-word">
+         <col width="40">
+         <col width="25">
+         <col width="500">
+         <col width="75">
+         <col width="175">
+         <col width="75">
+         <col width="50">
+         <col width="400">
+         <thead>
+            <tr>
+               <th ALIGN="right">#</th>
+               <th ALIGN="left">Key</th>
+               <th ALIGN="left">Label</th>
+               <th ALIGN="left">Object class</th>
+               <th ALIGN="left">Data type</th>
+               <th ALIGN="left">Period type</th>
+               <th ALIGN="left">Balance</th>
+               <th ALIGN="left">Name</th>
+            </tr>
+         </thead>
+         <tbody>
+            
+            <tr bgcolor="#FFAA66">
+               <td class="RowNetwork" ALIGN="right">*</td>
+               <td class="RowNetwork" ALIGN="left"><img src="http://www.xbrlsite.com/DigitalFinancialReporting/Icons/Network.png" height="10px" width="10px"></td>
+               <td class="RowNetwork" ALIGN="left" colspan="6"><SPAN style="font-weight:bold">Network: Topics</SPAN><SPAN style="font-weight:normal;font:10pt;color:black;"> (http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics)</SPAN></td>
+            </tr>
+            
+            <tr bgcolor="#ccffcc" id="ID1">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">1</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-20px;padding-left:20px">Financial Report</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FinancialReport</td>
+            </tr>
+            
+            <tr bgcolor="#ccffcc" id="ID2">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">2</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-30px;padding-left:30px">Primary Financial Statements</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PrimaryFinancialStatements</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID3">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">3</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Balance Sheet</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:BalanceSheet</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID4">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">4</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Income Statement</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:IncomeStatement</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID5">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">5</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Cash Flow Statement</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:CashFlowStatement</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID6">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">6</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Statement of Changes in Equity</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:StatementShareholderEquity</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID7">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">7</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Comprehensive Income</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ComprehensiveIncome</td>
+            </tr>
+            
+            
+            <tr bgcolor="#ccffcc" id="ID8">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">8</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-30px;padding-left:30px">Organization, Consolidation, and Presentation of Financial Statements</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:OrganizationConsolidationPresentationFinancialStatements</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID9">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">9</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Organization</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Organization</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID10">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">10</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Consolidation Information</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ConsolidationInformation</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID11">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">11</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Principles of Consolidation</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PrinciplesOfConsolidation</td>
+            </tr>
+            
+            
+            <tr bgcolor="#ccffcc" id="ID12">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">12</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-30px;padding-left:30px">Significant Accounting Policies</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:SignificantAccountingPolicies</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID13">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">13</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Accounting Policies</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:AccountingPolicies</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID14">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">14</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">New Accounting Pronouncements</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:NewAccountingPronouncements</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID15">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">15</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Other Accounting Policies Related</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:OtherAccountingPoliciesRelated</td>
+            </tr>
+            
+            
+            <tr bgcolor="#ccffcc" id="ID16">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">16</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-30px;padding-left:30px">Financial Statement Accounts</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FinancialStatementAccounts</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID17">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">17</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Cash and Cash Equivalents</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:CashAndCashEquivalents</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID18">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">18</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Receivables</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Receivables</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID19">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">19</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Investments-Debt and Equity Securities</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DebtAndEquitySecurities</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID20">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">20</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Investments-Equity Method Joint Ventures</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:EquityMethodJointVentures</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID21">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">21</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Investments-Other</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:InvestmentsOther</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID22">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">22</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Inventory</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Inventory</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID23">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">23</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Other Assets and Deferred Costs</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DeferredCosts</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID24">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">24</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Property, Plant, and Equipment</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PropertyPlantAndEquipment</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID25">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">25</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Intangibles-Goodwill and Other</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:IntangibleAssetsGoodwillAndOther</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID26">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">26</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Payables Accruals (Liabilities)</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PayablesAccruals</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID27">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">27</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Asset Retirement Obligations and Environmental Obligations</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:AssetRetirementObligations</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID28">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">28</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Exit or Disposal Cost Obligations</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ExitOrDisposalCostObligations</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID29">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">29</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Deferred Revenue</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DeferredRevenue</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID30">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">30</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Commitments</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Commitments</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID31">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">31</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Contingencies</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Contingencies</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID32">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">32</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Guarantees</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Guarantees</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID33">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">33</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Debt</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Debt</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID34">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">34</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Temporary Equity (Distinguishing Liabilities from Equity)</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DistinguishingLiabilitiesFromEquity</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID35">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">35</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Equity</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Equity</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID36">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">36</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Revenue Recognition</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RevenueRecognition</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID37">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">37</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Cost of Sales and Services</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:CostOfSalesServices</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID38">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">38</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Compensation-General</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:CompensationRelatedCostsGeneral</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID39">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">39</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Compensation-Nonretirement Postemployment Benefits</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PostEmploymentButPreRetirementCosts</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID40">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">40</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Compensation-Retirement Benefits</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PostretirementPensionCosts</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID41">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">41</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Compensation-Stock Compensation</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:StockCompensation</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID42">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">42</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Other Expenses</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:OtherExpenses</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID43">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">43</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Research and Development</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ResearchAndDevelopmentCosts</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID44">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">44</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Income Taxes</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:IncomeTaxes</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID45">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">45</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Temporary Equity</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:TemporaryEquity</td>
+            </tr>
+            
+            
+            <tr bgcolor="#ccffcc" id="ID46">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">46</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-30px;padding-left:30px">Basis of Financial Statement Presentation</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:BasisOfFinancialStatementPresentation</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID47">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">47</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Presentation of Financial Statements</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PresentationFinancialStatements</td>
+            </tr>
+            
+            <tr bgcolor="#ccffcc" id="ID48">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">48</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Basis of Reporting</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:BasisOfReporting</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID49">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">49</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Accounting Changes</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:AccountingChanges</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID50">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">50</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Error Corrections (Prior Period Adjustments)</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PriorPeriodAdjustments</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID51">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">51</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Changing Prices (Hyperinflation)</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ChangingPricesHyperinflation</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID52">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">52</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Earnings Per Share</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:EarningsPerShare</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID53">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">53</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Interim Reporting</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:InterimReporting</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID54">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">54</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Risks Uncertainties</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RisksUncertainties</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID55">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">55</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Segment Reporting</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:SegmentReporting</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID56">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">56</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Use of Estimates</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:UseOfEstimates</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID57">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">57</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Specialized Activities</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:SpecializedActivities</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID58">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">58</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-50px;padding-left:50px">Discontinued Operations</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DiscontinuedOperations</td>
+            </tr>
+            
+            
+            
+            <tr bgcolor="#ccffcc" id="ID59">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">59</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-30px;padding-left:30px">Broad Transactional Categories</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:BroadTransactionalCategories</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID60">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">60</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Business Combinations</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:BusinessCombinations</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID61">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">61</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Collaborative Arrangements</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:CollaborativeArrangements</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID62">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">62</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Consolidation</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Consolidation</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID63">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">63</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Derivatives and Hedging</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DerivativeInstrumentsAndHedgingActivities</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID64">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">64</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Fair Value Measurement</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FairValueMeasurement</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID65">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">65</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Financial Instruments</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FinancialInstruments</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID66">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">66</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Foreign Currency Matters</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ForeignOperationsAndCurrencyTranslation</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID67">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">67</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Interest</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Interest</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID68">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">68</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Leases-Operating</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:LeasesOperating</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID69">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">69</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Leases-Capital</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:LeasesCapital</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID70">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">70</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Leases-Sale and Leaseback</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:LeasesSaleAndLeaseback</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID71">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">71</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Nonmonetary Transactions</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:NonmonetaryTransactions</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID72">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">72</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Related Party Disclosures</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RelatedPartyDisclosures</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID73">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">73</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Reorganizations</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Reorganizations</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID74">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">74</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Subsequent Events</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:SubsequentEvents</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID75">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">75</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Unusual or Infrequent Items</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:UnusualOrInfrequentItems</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID76">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">76</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Extraordinary Items</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ExtraordinaryItems</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID77">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">77</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Transfers and Servicing</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:TransfersAndServicing</td>
+            </tr>
+            
+            
+            <tr bgcolor="#ccffcc" id="ID78">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">78</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-30px;padding-left:30px">Industry Specific</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:IndustrySpecific</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID79">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">79</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Agriculture</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Agriculture</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID80">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">80</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Airlines</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Airlines</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID81">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">81</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Contractors-Construction</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ContractorsConstruction</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID82">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">82</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Development Stage Entities</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DevelopmentStageEntities</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID83">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">83</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Entertainment-Broadcasters</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Broadcasting</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID84">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">84</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Entertainment-Cable Television</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:CableTelevision</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID85">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">85</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Entertainment-Casinos</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Casinos</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID86">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">86</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Entertainment-Films</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:MotionPictures</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID87">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">87</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Entertainment-Music</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RecordsAndMusicIndustry</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID88">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">88</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Financial Services-Brokers and Dealers</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FinancialServicesBrokersAndDealers</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID89">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">89</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Financial Services-Depository and Lending</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FinancialServicesDepositoryAndLending</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID90">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">90</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Financial Services-Insurance</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FinancialServicesInsurance</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID91">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">91</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Financial Services-Investment Companies</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FinancialServicesInvestmentCompanies</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID92">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">92</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Financial Services-Mortgage Banking</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FinancialServicesMortgageBanking</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID93">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">93</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Financial Services-Title Plant</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FinancialServicesTitlePlant</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID94">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">94</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Franchisors</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:FranchisorAccounting</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID95">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">95</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Health Care Entities</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:HealthCareEntities</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID96">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">96</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Plan Accounting-Defined Contribution Pension Plans</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PlanAccountingDefinedContributionPensionPlans</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID97">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">97</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Plan Accounting-Health and Welfare Benefit Plans</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PlanAccountingHealthWelfareBenefitPlans</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID98">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">98</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Real Estate-General</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RealEstateOperations</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID99">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">99</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Real Estate-Common Interest Realty Associations</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RealEstateCommonInterestRealtyAssociations</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID100">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">100</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Real Estate-Real Estate Investment Trusts</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RealEstateRealEstateInvestmentTrusts</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID101">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">101</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Real Estate-Retail Land</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RealEstateRetailLand</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID102">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">102</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Real Estate-Time-Sharing Activities</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RealEstateTimeSharingActivities</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID103">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">103</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Regulated Operations</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:RegulatedOperations</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID104">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">104</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Software</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Software</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID105">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">105</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">U.S. Steamship Entities</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:USSteamshipEntities</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID106">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">106</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Extractive Activities-Oil and Gas</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ExtractiveActivitiesOilAndGas</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID107">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">107</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Contractors-Federal Government</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ContractorsFederalGovernment</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID108">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">108</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Depository and Lending</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DepositoryAndLending</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID109">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">109</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Brokers and Dealers</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:BrokersAndDealers</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID110">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">110</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Insurance</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:Insurance</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID111">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">111</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Investment Companies</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:InvestmentCompanies</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID112">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">112</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Mortgage Banking</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:MortgageBanking</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID113">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">113</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Extractive Activities-Mining</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:ExtractiveActivitiesMining</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID114">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">114</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Not-for-Profit Entities</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:NotForProfitEntities</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID115">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">115</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Plan Accounting-Defined Benefit Pension Plans</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:PlanAccountingDefinedBenefitPensionPlans</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID116">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">116</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Commercial and Industrial</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:CommercialAndIndustrial</td>
+            </tr>
+            
+            
+            <tr bgcolor="#ccffcc" id="ID117">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">117</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-30px;padding-left:30px">Document and Entity Information</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DocumentAndEntityInformation</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID118">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">118</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Document Information</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:DocumentInformation</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID119">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">119</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Entity Information</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:EntityInformation</td>
+            </tr>
+            
+            
+            <tr bgcolor="#ccffcc" id="ID120">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">120</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-30px;padding-left:30px">Supplementary Information</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:SupplementaryInformation</td>
+            </tr>
+            
+            <tr bgcolor="#F7F7F7" id="ID121">
+               <td class="Row" ALIGN="right"><SPAN style="color:black">121</SPAN></td>
+               <td class="Row" ALIGN="left"><span style="width:15px;height:15px;background-color:#FF3300"></span></td>
+               <td class="Row" ALIGN="left" style="margin-left:-40px;padding-left:40px">Other Information</td>
+               <td class="Row" ALIGN="left"><span style="">[Abstract]</span></td>
+               <td class="Row" ALIGN="left" style="font-size:7pt"><span style=""></span></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" ALIGN="left"></td>
+               <td class="Row" style="font:7pt; color:black">topics:OtherInformation</td>
+            </tr>
+            
+            
+            
+            
+            
+         </tbody>
+      </table>
+   </body>
+</html>

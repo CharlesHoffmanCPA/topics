@@ -1,0 +1,727 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created by Charles Hoffman, CPA 6/30/2017 2:38:14 PM -->
+<link:linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:xbrldt='http://xbrl.org/2005/xbrldt' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:link='http://www.xbrl.org/2003/linkbase' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd'>
+   <link:roleRef xlink:type='simple' xlink:href='topics.xsd#Topics' roleURI='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='http://xbrlsite.azurewebsites.net/2016/conceptual-model/cm-arcroles.xsd#heading-topic' arcroleURI='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic'/>
+   <link:arcroleRef xlink:type='simple' xlink:href='http://xbrlsite.azurewebsites.net/2016/conceptual-model/cm-arcroles.xsd#heading-heading' arcroleURI='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading'/>
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialReport' xlink:label='topics_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PrimaryFinancialStatements' xlink:label='topics_PrimaryFinancialStatements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_PrimaryFinancialStatements' xlink:from='topics_FinancialReport' order='1' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PrimaryFinancialStatements' xlink:label='topics_PrimaryFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BalanceSheet' xlink:label='topics_BalanceSheet' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_BalanceSheet' xlink:from='topics_PrimaryFinancialStatements' order='2' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PrimaryFinancialStatements' xlink:label='topics_PrimaryFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeStatement' xlink:label='topics_IncomeStatement' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_IncomeStatement' xlink:from='topics_PrimaryFinancialStatements' order='3' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PrimaryFinancialStatements' xlink:label='topics_PrimaryFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CashFlowStatement' xlink:label='topics_CashFlowStatement' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_CashFlowStatement' xlink:from='topics_PrimaryFinancialStatements' order='4' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PrimaryFinancialStatements' xlink:label='topics_PrimaryFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StatementShareholderEquity' xlink:label='topics_StatementShareholderEquity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_StatementShareholderEquity' xlink:from='topics_PrimaryFinancialStatements' order='5' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PrimaryFinancialStatements' xlink:label='topics_PrimaryFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ComprehensiveIncome' xlink:label='topics_ComprehensiveIncome' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ComprehensiveIncome' xlink:from='topics_PrimaryFinancialStatements' order='6' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialReport' xlink:label='topics_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OrganizationConsolidationPresentationFinancialStatements' xlink:label='topics_OrganizationConsolidationPresentationFinancialStatements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_OrganizationConsolidationPresentationFinancialStatements' xlink:from='topics_FinancialReport' order='7' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OrganizationConsolidationPresentationFinancialStatements' xlink:label='topics_OrganizationConsolidationPresentationFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Organization' xlink:label='topics_Organization' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Organization' xlink:from='topics_OrganizationConsolidationPresentationFinancialStatements' order='8' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OrganizationConsolidationPresentationFinancialStatements' xlink:label='topics_OrganizationConsolidationPresentationFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ConsolidationInformation' xlink:label='topics_ConsolidationInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ConsolidationInformation' xlink:from='topics_OrganizationConsolidationPresentationFinancialStatements' order='9' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfFinancialStatementPresentation' xlink:label='topics_BasisOfFinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PresentationFinancialStatements' xlink:label='topics_PresentationFinancialStatements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_PresentationFinancialStatements' xlink:from='topics_BasisOfFinancialStatementPresentation' order='10' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialReport' xlink:label='topics_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_SignificantAccountingPolicies' xlink:from='topics_FinancialReport' order='11' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_AccountingPolicies' xlink:label='topics_AccountingPolicies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_AccountingPolicies' xlink:from='topics_SignificantAccountingPolicies' order='12' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_NewAccountingPronouncements' xlink:label='topics_NewAccountingPronouncements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_NewAccountingPronouncements' xlink:from='topics_SignificantAccountingPolicies' order='13' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SignificantAccountingPolicies' xlink:label='topics_SignificantAccountingPolicies' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherAccountingPoliciesRelated' xlink:label='topics_OtherAccountingPoliciesRelated' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_OtherAccountingPoliciesRelated' xlink:from='topics_SignificantAccountingPolicies' order='14' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialReport' xlink:label='topics_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_FinancialStatementAccounts' xlink:from='topics_FinancialReport' order='15' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CashAndCashEquivalents' xlink:label='topics_CashAndCashEquivalents' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_CashAndCashEquivalents' xlink:from='topics_FinancialStatementAccounts' order='16' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Receivables' xlink:label='topics_Receivables' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Receivables' xlink:from='topics_FinancialStatementAccounts' order='17' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DebtAndEquitySecurities' xlink:label='topics_DebtAndEquitySecurities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_DebtAndEquitySecurities' xlink:from='topics_FinancialStatementAccounts' order='18' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EquityMethodJointVentures' xlink:label='topics_EquityMethodJointVentures' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_EquityMethodJointVentures' xlink:from='topics_FinancialStatementAccounts' order='19' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentsOther' xlink:label='topics_InvestmentsOther' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_InvestmentsOther' xlink:from='topics_FinancialStatementAccounts' order='20' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Inventory' xlink:label='topics_Inventory' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Inventory' xlink:from='topics_FinancialStatementAccounts' order='21' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DeferredCosts' xlink:label='topics_DeferredCosts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_DeferredCosts' xlink:from='topics_FinancialStatementAccounts' order='22' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PropertyPlantAndEquipment' xlink:label='topics_PropertyPlantAndEquipment' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_PropertyPlantAndEquipment' xlink:from='topics_FinancialStatementAccounts' order='23' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IntangibleAssetsGoodwillAndOther' xlink:label='topics_IntangibleAssetsGoodwillAndOther' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_IntangibleAssetsGoodwillAndOther' xlink:from='topics_FinancialStatementAccounts' order='24' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PayablesAccruals' xlink:label='topics_PayablesAccruals' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_PayablesAccruals' xlink:from='topics_FinancialStatementAccounts' order='25' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_AssetRetirementObligations' xlink:label='topics_AssetRetirementObligations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_AssetRetirementObligations' xlink:from='topics_FinancialStatementAccounts' order='26' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ExitOrDisposalCostObligations' xlink:label='topics_ExitOrDisposalCostObligations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ExitOrDisposalCostObligations' xlink:from='topics_FinancialStatementAccounts' order='27' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DeferredRevenue' xlink:label='topics_DeferredRevenue' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_DeferredRevenue' xlink:from='topics_FinancialStatementAccounts' order='28' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Commitments' xlink:label='topics_Commitments' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Commitments' xlink:from='topics_FinancialStatementAccounts' order='29' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Contingencies' xlink:label='topics_Contingencies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Contingencies' xlink:from='topics_FinancialStatementAccounts' order='30' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Guarantees' xlink:label='topics_Guarantees' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Guarantees' xlink:from='topics_FinancialStatementAccounts' order='31' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Debt' xlink:label='topics_Debt' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Debt' xlink:from='topics_FinancialStatementAccounts' order='32' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DistinguishingLiabilitiesFromEquity' xlink:label='topics_DistinguishingLiabilitiesFromEquity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_DistinguishingLiabilitiesFromEquity' xlink:from='topics_FinancialStatementAccounts' order='33' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Equity' xlink:label='topics_Equity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Equity' xlink:from='topics_FinancialStatementAccounts' order='34' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RevenueRecognition' xlink:label='topics_RevenueRecognition' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_RevenueRecognition' xlink:from='topics_FinancialStatementAccounts' order='35' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CostOfSalesServices' xlink:label='topics_CostOfSalesServices' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_CostOfSalesServices' xlink:from='topics_FinancialStatementAccounts' order='36' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CompensationRelatedCostsGeneral' xlink:label='topics_CompensationRelatedCostsGeneral' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_CompensationRelatedCostsGeneral' xlink:from='topics_FinancialStatementAccounts' order='37' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PostEmploymentButPreRetirementCosts' xlink:label='topics_PostEmploymentButPreRetirementCosts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_PostEmploymentButPreRetirementCosts' xlink:from='topics_FinancialStatementAccounts' order='38' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PostretirementPensionCosts' xlink:label='topics_PostretirementPensionCosts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_PostretirementPensionCosts' xlink:from='topics_FinancialStatementAccounts' order='39' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_StockCompensation' xlink:label='topics_StockCompensation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_StockCompensation' xlink:from='topics_FinancialStatementAccounts' order='40' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherExpenses' xlink:label='topics_OtherExpenses' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_OtherExpenses' xlink:from='topics_FinancialStatementAccounts' order='41' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ResearchAndDevelopmentCosts' xlink:label='topics_ResearchAndDevelopmentCosts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ResearchAndDevelopmentCosts' xlink:from='topics_FinancialStatementAccounts' order='42' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IncomeTaxes' xlink:label='topics_IncomeTaxes' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_IncomeTaxes' xlink:from='topics_FinancialStatementAccounts' order='43' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialReport' xlink:label='topics_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfFinancialStatementPresentation' xlink:label='topics_BasisOfFinancialStatementPresentation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_BasisOfFinancialStatementPresentation' xlink:from='topics_FinancialReport' order='44' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_AccountingChanges' xlink:label='topics_AccountingChanges' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_AccountingChanges' xlink:from='topics_BasisOfReporting' order='45' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PriorPeriodAdjustments' xlink:label='topics_PriorPeriodAdjustments' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_PriorPeriodAdjustments' xlink:from='topics_BasisOfReporting' order='46' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ChangingPricesHyperinflation' xlink:label='topics_ChangingPricesHyperinflation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_ChangingPricesHyperinflation' xlink:from='topics_BasisOfReporting' order='47' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EarningsPerShare' xlink:label='topics_EarningsPerShare' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_EarningsPerShare' xlink:from='topics_BasisOfReporting' order='48' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InterimReporting' xlink:label='topics_InterimReporting' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_InterimReporting' xlink:from='topics_BasisOfReporting' order='49' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RisksUncertainties' xlink:label='topics_RisksUncertainties' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_RisksUncertainties' xlink:from='topics_BasisOfReporting' order='50' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SegmentReporting' xlink:label='topics_SegmentReporting' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_SegmentReporting' xlink:from='topics_BasisOfReporting' order='51' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_UseOfEstimates' xlink:label='topics_UseOfEstimates' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_UseOfEstimates' xlink:from='topics_BasisOfReporting' order='52' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SpecializedActivities' xlink:label='topics_SpecializedActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_SpecializedActivities' xlink:from='topics_BasisOfReporting' order='53' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DiscontinuedOperations' xlink:label='topics_DiscontinuedOperations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_DiscontinuedOperations' xlink:from='topics_BasisOfReporting' order='54' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialReport' xlink:label='topics_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_BroadTransactionalCategories' xlink:from='topics_FinancialReport' order='55' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BusinessCombinations' xlink:label='topics_BusinessCombinations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_BusinessCombinations' xlink:from='topics_BroadTransactionalCategories' order='56' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CollaborativeArrangements' xlink:label='topics_CollaborativeArrangements' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_CollaborativeArrangements' xlink:from='topics_BroadTransactionalCategories' order='57' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Consolidation' xlink:label='topics_Consolidation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Consolidation' xlink:from='topics_BroadTransactionalCategories' order='58' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DerivativeInstrumentsAndHedgingActivities' xlink:label='topics_DerivativeInstrumentsAndHedgingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_DerivativeInstrumentsAndHedgingActivities' xlink:from='topics_BroadTransactionalCategories' order='59' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FairValueMeasurement' xlink:label='topics_FairValueMeasurement' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_FairValueMeasurement' xlink:from='topics_BroadTransactionalCategories' order='60' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialInstruments' xlink:label='topics_FinancialInstruments' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_FinancialInstruments' xlink:from='topics_BroadTransactionalCategories' order='61' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ForeignOperationsAndCurrencyTranslation' xlink:label='topics_ForeignOperationsAndCurrencyTranslation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ForeignOperationsAndCurrencyTranslation' xlink:from='topics_BroadTransactionalCategories' order='62' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Interest' xlink:label='topics_Interest' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Interest' xlink:from='topics_BroadTransactionalCategories' order='63' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_LeasesOperating' xlink:label='topics_LeasesOperating' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_LeasesOperating' xlink:from='topics_BroadTransactionalCategories' order='64' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_LeasesCapital' xlink:label='topics_LeasesCapital' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_LeasesCapital' xlink:from='topics_BroadTransactionalCategories' order='65' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_LeasesSaleAndLeaseback' xlink:label='topics_LeasesSaleAndLeaseback' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_LeasesSaleAndLeaseback' xlink:from='topics_BroadTransactionalCategories' order='66' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_NonmonetaryTransactions' xlink:label='topics_NonmonetaryTransactions' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_NonmonetaryTransactions' xlink:from='topics_BroadTransactionalCategories' order='67' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RelatedPartyDisclosures' xlink:label='topics_RelatedPartyDisclosures' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_RelatedPartyDisclosures' xlink:from='topics_BroadTransactionalCategories' order='68' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Reorganizations' xlink:label='topics_Reorganizations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Reorganizations' xlink:from='topics_BroadTransactionalCategories' order='69' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SubsequentEvents' xlink:label='topics_SubsequentEvents' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_SubsequentEvents' xlink:from='topics_BroadTransactionalCategories' order='70' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_UnusualOrInfrequentItems' xlink:label='topics_UnusualOrInfrequentItems' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_UnusualOrInfrequentItems' xlink:from='topics_BroadTransactionalCategories' order='71' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ExtraordinaryItems' xlink:label='topics_ExtraordinaryItems' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ExtraordinaryItems' xlink:from='topics_BroadTransactionalCategories' order='72' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BroadTransactionalCategories' xlink:label='topics_BroadTransactionalCategories' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TransfersAndServicing' xlink:label='topics_TransfersAndServicing' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_TransfersAndServicing' xlink:from='topics_BroadTransactionalCategories' order='73' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialReport' xlink:label='topics_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_IndustrySpecific' xlink:from='topics_FinancialReport' order='74' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Agriculture' xlink:label='topics_Agriculture' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Agriculture' xlink:from='topics_IndustrySpecific' order='75' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Airlines' xlink:label='topics_Airlines' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Airlines' xlink:from='topics_IndustrySpecific' order='76' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ContractorsConstruction' xlink:label='topics_ContractorsConstruction' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ContractorsConstruction' xlink:from='topics_IndustrySpecific' order='77' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DevelopmentStageEntities' xlink:label='topics_DevelopmentStageEntities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_DevelopmentStageEntities' xlink:from='topics_IndustrySpecific' order='78' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Broadcasting' xlink:label='topics_Broadcasting' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Broadcasting' xlink:from='topics_IndustrySpecific' order='79' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CableTelevision' xlink:label='topics_CableTelevision' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_CableTelevision' xlink:from='topics_IndustrySpecific' order='80' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Casinos' xlink:label='topics_Casinos' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Casinos' xlink:from='topics_IndustrySpecific' order='81' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_MotionPictures' xlink:label='topics_MotionPictures' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_MotionPictures' xlink:from='topics_IndustrySpecific' order='82' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RecordsAndMusicIndustry' xlink:label='topics_RecordsAndMusicIndustry' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_RecordsAndMusicIndustry' xlink:from='topics_IndustrySpecific' order='83' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialServicesBrokersAndDealers' xlink:label='topics_FinancialServicesBrokersAndDealers' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_FinancialServicesBrokersAndDealers' xlink:from='topics_IndustrySpecific' order='84' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialServicesDepositoryAndLending' xlink:label='topics_FinancialServicesDepositoryAndLending' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_FinancialServicesDepositoryAndLending' xlink:from='topics_IndustrySpecific' order='85' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialServicesInsurance' xlink:label='topics_FinancialServicesInsurance' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_FinancialServicesInsurance' xlink:from='topics_IndustrySpecific' order='86' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialServicesInvestmentCompanies' xlink:label='topics_FinancialServicesInvestmentCompanies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_FinancialServicesInvestmentCompanies' xlink:from='topics_IndustrySpecific' order='87' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialServicesMortgageBanking' xlink:label='topics_FinancialServicesMortgageBanking' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_FinancialServicesMortgageBanking' xlink:from='topics_IndustrySpecific' order='88' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialServicesTitlePlant' xlink:label='topics_FinancialServicesTitlePlant' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_FinancialServicesTitlePlant' xlink:from='topics_IndustrySpecific' order='89' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FranchisorAccounting' xlink:label='topics_FranchisorAccounting' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_FranchisorAccounting' xlink:from='topics_IndustrySpecific' order='90' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_HealthCareEntities' xlink:label='topics_HealthCareEntities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_HealthCareEntities' xlink:from='topics_IndustrySpecific' order='91' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PlanAccountingDefinedContributionPensionPlans' xlink:label='topics_PlanAccountingDefinedContributionPensionPlans' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_PlanAccountingDefinedContributionPensionPlans' xlink:from='topics_IndustrySpecific' order='92' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PlanAccountingHealthWelfareBenefitPlans' xlink:label='topics_PlanAccountingHealthWelfareBenefitPlans' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_PlanAccountingHealthWelfareBenefitPlans' xlink:from='topics_IndustrySpecific' order='93' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RealEstateOperations' xlink:label='topics_RealEstateOperations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_RealEstateOperations' xlink:from='topics_IndustrySpecific' order='94' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RealEstateCommonInterestRealtyAssociations' xlink:label='topics_RealEstateCommonInterestRealtyAssociations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_RealEstateCommonInterestRealtyAssociations' xlink:from='topics_IndustrySpecific' order='95' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RealEstateRealEstateInvestmentTrusts' xlink:label='topics_RealEstateRealEstateInvestmentTrusts' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_RealEstateRealEstateInvestmentTrusts' xlink:from='topics_IndustrySpecific' order='96' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RealEstateRetailLand' xlink:label='topics_RealEstateRetailLand' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_RealEstateRetailLand' xlink:from='topics_IndustrySpecific' order='97' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RealEstateTimeSharingActivities' xlink:label='topics_RealEstateTimeSharingActivities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_RealEstateTimeSharingActivities' xlink:from='topics_IndustrySpecific' order='98' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_RegulatedOperations' xlink:label='topics_RegulatedOperations' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_RegulatedOperations' xlink:from='topics_IndustrySpecific' order='99' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Software' xlink:label='topics_Software' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Software' xlink:from='topics_IndustrySpecific' order='100' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_USSteamshipEntities' xlink:label='topics_USSteamshipEntities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_USSteamshipEntities' xlink:from='topics_IndustrySpecific' order='101' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialReport' xlink:label='topics_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DocumentAndEntityInformation' xlink:label='topics_DocumentAndEntityInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_DocumentAndEntityInformation' xlink:from='topics_FinancialReport' order='102' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DocumentAndEntityInformation' xlink:label='topics_DocumentAndEntityInformation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DocumentInformation' xlink:label='topics_DocumentInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_DocumentInformation' xlink:from='topics_DocumentAndEntityInformation' order='103' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DocumentAndEntityInformation' xlink:label='topics_DocumentAndEntityInformation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_EntityInformation' xlink:label='topics_EntityInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_EntityInformation' xlink:from='topics_DocumentAndEntityInformation' order='104' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialReport' xlink:label='topics_FinancialReport' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SupplementaryInformation' xlink:label='topics_SupplementaryInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-heading' xlink:to='topics_SupplementaryInformation' xlink:from='topics_FinancialReport' order='105' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_SupplementaryInformation' xlink:label='topics_SupplementaryInformation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OtherInformation' xlink:label='topics_OtherInformation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_OtherInformation' xlink:from='topics_SupplementaryInformation' order='106' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ExtractiveActivitiesOilAndGas' xlink:label='topics_ExtractiveActivitiesOilAndGas' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ExtractiveActivitiesOilAndGas' xlink:from='topics_IndustrySpecific' order='107' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ContractorsFederalGovernment' xlink:label='topics_ContractorsFederalGovernment' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ContractorsFederalGovernment' xlink:from='topics_IndustrySpecific' order='108' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_FinancialStatementAccounts' xlink:label='topics_FinancialStatementAccounts' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_TemporaryEquity' xlink:label='topics_TemporaryEquity' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_TemporaryEquity' xlink:from='topics_FinancialStatementAccounts' order='109' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_DepositoryAndLending' xlink:label='topics_DepositoryAndLending' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_DepositoryAndLending' xlink:from='topics_IndustrySpecific' order='110' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BrokersAndDealers' xlink:label='topics_BrokersAndDealers' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_BrokersAndDealers' xlink:from='topics_IndustrySpecific' order='111' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_Insurance' xlink:label='topics_Insurance' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_Insurance' xlink:from='topics_IndustrySpecific' order='112' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_InvestmentCompanies' xlink:label='topics_InvestmentCompanies' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_InvestmentCompanies' xlink:from='topics_IndustrySpecific' order='113' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_MortgageBanking' xlink:label='topics_MortgageBanking' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_MortgageBanking' xlink:from='topics_IndustrySpecific' order='114' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_ExtractiveActivitiesMining' xlink:label='topics_ExtractiveActivitiesMining' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_ExtractiveActivitiesMining' xlink:from='topics_IndustrySpecific' order='115' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_NotForProfitEntities' xlink:label='topics_NotForProfitEntities' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_NotForProfitEntities' xlink:from='topics_IndustrySpecific' order='116' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PlanAccountingDefinedBenefitPensionPlans' xlink:label='topics_PlanAccountingDefinedBenefitPensionPlans' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_PlanAccountingDefinedBenefitPensionPlans' xlink:from='topics_IndustrySpecific' order='117' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_OrganizationConsolidationPresentationFinancialStatements' xlink:label='topics_OrganizationConsolidationPresentationFinancialStatements' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_PrinciplesOfConsolidation' xlink:label='topics_PrinciplesOfConsolidation' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_PrinciplesOfConsolidation' xlink:from='topics_OrganizationConsolidationPresentationFinancialStatements' order='118' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfFinancialStatementPresentation' xlink:label='topics_BasisOfFinancialStatementPresentation' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_BasisOfReporting' xlink:label='topics_BasisOfReporting' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_BasisOfReporting' xlink:from='topics_BasisOfFinancialStatementPresentation' order='119' use='optional' />
+   </link:definitionLink>
+
+   <link:definitionLink xlink:type='extended' xlink:role='http://xbrlsite.azurewebsites.net/2016/conceptual-model/reporting-schemes/us-gaap/topics/role/Topics' xlink:title='All relations between ontology things'>
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_IndustrySpecific' xlink:label='topics_IndustrySpecific' />
+      <link:loc xlink:type='locator' xlink:href='topics.xsd#topics_CommercialAndIndustrial' xlink:label='topics_CommercialAndIndustrial' />
+      <link:definitionArc xlink:type='arc' xlink:arcrole='http://xbrlsite.azurewebsites.net/2016/conceptual-model/arcrole/heading-topic' xlink:to='topics_CommercialAndIndustrial' xlink:from='topics_IndustrySpecific' order='120' use='optional' />
+   </link:definitionLink>
+
+</link:linkbase>
